@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaaV.Hangfire.WebApi", "SaaV.Hangfire.WebApi\SaaV.Hangfire.WebApi.csproj", "{F4D104C3-E05E-4821-A607-7C0F42637D0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaaV.Hangfire.Worker", "SaaV.Hangfire.Worker\SaaV.Hangfire.Worker.csproj", "{0FBD7475-7342-470E-8EBC-C8A8F9629D64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaaV.Hangfire.Infrastructure", "SaaV.Hangfire.Infrastructure\SaaV.Hangfire.Infrastructure.csproj", "{378629FC-C222-473C-8154-ABF4D8FABC3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaaV.Hangfire.Core", "SaaV.Hangfire.Core\SaaV.Hangfire.Core.csproj", "{06FAB1AE-B875-4ED0-9A26-26576C555DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{8670E927-1F16-4EA0-9EE2-E47E51F442B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{A3B1EBAE-2F8D-4E6A-8852-423E392E806D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D104C3-E05E-4821-A607-7C0F42637D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D104C3-E05E-4821-A607-7C0F42637D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D104C3-E05E-4821-A607-7C0F42637D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D104C3-E05E-4821-A607-7C0F42637D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBD7475-7342-470E-8EBC-C8A8F9629D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBD7475-7342-470E-8EBC-C8A8F9629D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBD7475-7342-470E-8EBC-C8A8F9629D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBD7475-7342-470E-8EBC-C8A8F9629D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378629FC-C222-473C-8154-ABF4D8FABC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378629FC-C222-473C-8154-ABF4D8FABC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378629FC-C222-473C-8154-ABF4D8FABC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378629FC-C222-473C-8154-ABF4D8FABC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FAB1AE-B875-4ED0-9A26-26576C555DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FAB1AE-B875-4ED0-9A26-26576C555DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FAB1AE-B875-4ED0-9A26-26576C555DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FAB1AE-B875-4ED0-9A26-26576C555DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D104C3-E05E-4821-A607-7C0F42637D0C} = {8670E927-1F16-4EA0-9EE2-E47E51F442B3}
+		{0FBD7475-7342-470E-8EBC-C8A8F9629D64} = {8670E927-1F16-4EA0-9EE2-E47E51F442B3}
+		{378629FC-C222-473C-8154-ABF4D8FABC3C} = {A3B1EBAE-2F8D-4E6A-8852-423E392E806D}
+		{06FAB1AE-B875-4ED0-9A26-26576C555DF1} = {A3B1EBAE-2F8D-4E6A-8852-423E392E806D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4D0655-B62E-4E90-B4D4-F25C6AB57254}
+	EndGlobalSection
+EndGlobal
